@@ -1,0 +1,118 @@
+[
+  {
+    "id": "1",
+    "name": "Wholesale Distributors Inc.",
+    "deliveryFee": 150,
+    "minDeliveryTime": 5,
+    "maxDeliveryTime": 8,
+    "rating": 4.2,
+    "image": "https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "inventory": [
+      {
+        "name": "Bulk Rice - 20 kg",
+        "description": "Premium quality long-grain rice.",
+        "price": 23.99,
+        "image": "https://example.com/rice.jpg"
+      },
+      {
+        "name": "Pack of 1000 Disposable Utensils",
+        "description": "High-quality disposable utensils for events and catering.",
+        "price": 18.90,
+        "image": "https://example.com/utensils.jpg"
+      },
+      {
+        "name": "Assorted Snack Pack - 50 Pieces",
+        "description": "A variety of popular snacks in a single pack.",
+        "price": 15.40
+      },
+      {
+        "name": "Bulk Cooking Oil - 5L",
+        "description": "Pure vegetable cooking oil for commercial kitchens.",
+        "price": 29.90
+      },
+      {
+        "name": "Chilled Beverages Variety Pack",
+        "description": "A selection of refreshing beverages in bulk.",
+        "price": 22.50
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Bulk Warehouse Co.",
+    "deliveryFee": 220,
+    "minDeliveryTime": 2,
+    "maxDeliveryTime": 6,
+    "rating": 4.9,
+    "image": "https://images.pexels.com/photos/4481327/pexels-photo-4481327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "inventory": [
+      {
+        "name": "Premium Lager Beer - Case of 24",
+        "description": "Case of 24 bottles of premium lager beer.",
+        "price": 34.95,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg"
+      },
+      {
+        "name": "Red Wine - Cabernet Sauvignon",
+        "description": "Bottle of rich and full-bodied Cabernet Sauvignon.",
+        "price": 27.50,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg"
+      },
+      {
+        "name": "Coca-Cola - 24 Cans",
+        "description": "Case of 24 cans of Coca-Cola.",
+        "price": 12.99,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg"
+      },
+      {
+        "name": "Sprite - 24 Cans",
+        "description": "Case of 24 cans of Sprite.",
+        "price": 12.99,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg"
+      },
+      {
+        "name": "Pepsi - 24 Cans",
+        "description": "Case of 24 cans of Pepsi.",
+        "price": 12.99,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Supply Chain Traders",
+    "deliveryFee": 120,
+    "minDeliveryTime": 7,
+    "maxDeliveryTime": 9,
+    "rating": 4.4,
+    "image": "https://images.pexels.com/photos/1561147/pexels-photo-1561147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "inventory": [
+      {
+        "name": "Bulk Canned Vegetables - 24 Cans",
+        "description": "Variety pack of canned vegetables for restaurants.",
+        "price": 19.50
+      },
+      {
+        "name": "Wholesale Coffee Beans - 5 kg",
+        "description": "Premium coffee beans for cafes and businesses.",
+        "price": 42.75,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+      },
+      {
+        "name": "Disposable Takeout Containers - 500 Pack",
+        "description": "Convenient takeout containers for food establishments.",
+        "price": 32.90
+      },
+      {
+        "name": "Bulk Spices Assortment - 15 Jars",
+        "description": "Assorted spices for enhancing culinary creations.",
+        "price": 27.60
+      },
+      {
+        "name": "Large Commercial Refrigerator",
+        "description": "Heavy-duty refrigerator for storing perishables.",
+        "price": 899.00
+      }
+    ]
+  }
+]
