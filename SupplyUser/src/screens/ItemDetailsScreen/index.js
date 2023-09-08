@@ -16,7 +16,9 @@ const ItemDetailsScreen = () => {
     };
 
     const onPlus = () => {
+        if (amount < Suppliers[0].stock[0].quantity) {
         setAmount(amount + 1)
+        }
     };
 
     return (
@@ -24,12 +26,12 @@ const ItemDetailsScreen = () => {
             <Text style={styles.name}>{item.name}</Text>
             <Text style={styles.description}>{item.description}</Text>
             <View style={styles.separator}></View>
-
             <View style={styles.row}>
                 <AntDesign name="minuscircleo" size={60} color={"black"} onPress={onMinus} />
                 <Text style={styles.amount}>{amount}</Text>
                 <AntDesign name="pluscircleo" size={60} color={"black"} onPress={onPlus} />
             </View>
+            <View style={styles.quantity}><Text style={styles.quantity}>{item.quantity} In Stock</Text></View>
         </View>
     );
 };
@@ -66,7 +68,15 @@ const styles = StyleSheet.create({
     amount: {
         fontSize: 25,
         marginHorizontal: 20,
-    }
+        fontWeight: "450",
+    },
+    quantity: {
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 5,
+        fontWeight: "450",
+        color: "red",
+    },
 });
 
 export default ItemDetailsScreen;
