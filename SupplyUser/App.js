@@ -3,11 +3,13 @@ import { StyleSheet, View } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
 import SupplierDetailsPage from './src/screens/SupplierDetailsScreen';
 import ItemDetailsScreen from './src/screens/ItemDetailsScreen';
+import Basket from './src/screens/Basket';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ItemDetailsScreen />
+      <Basket />
+      {/* <ItemDetailsScreen /> */}
       {/* <SupplierDetailsPage /> */}
       {/* <HomeScreen /> */}
 

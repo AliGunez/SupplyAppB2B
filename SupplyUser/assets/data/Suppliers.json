@@ -2,6 +2,7 @@
   {
     "id": "1",
     "name": "Wholesale Distributors Inc.",
+    "address": "42 Windsor Road London N79 3IA",
     "deliveryFee": 150,
     "minDeliveryTime": 5,
     "maxDeliveryTime": 8,

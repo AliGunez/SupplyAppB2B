@@ -21,6 +21,10 @@ const ItemDetailsScreen = () => {
         }
     };
 
+    const getTotal = () => {
+        return (item.price * amount).toFixed(2);
+    };
+
     return (
         <View style={styles.page}>
             <Text style={styles.name}>{item.name}</Text>
@@ -32,6 +36,9 @@ const ItemDetailsScreen = () => {
                 <AntDesign name="pluscircleo" size={60} color={"black"} onPress={onPlus} />
             </View>
             <View style={styles.quantity}><Text style={styles.quantity}>{item.quantity} In Stock</Text></View>
+            <View style={styles.button}>
+                <Text style={styles.buttonText}>Add {amount} to basket &#8226; £{getTotal()}</Text>
+            </View>
         </View>
     );
 };
@@ -46,6 +53,7 @@ const styles = StyleSheet.create({
         fontSize: 35,
         fontWeight: "600",
         marginVertical: 5,
+        paddingTop: 20,
     },
     description: {
         marginHorizontal: 20,
@@ -53,6 +61,7 @@ const styles = StyleSheet.create({
         color: "grey",
         fontWeight: "600",
         marginBottom: 5,
+        paddingBottom: 10,
     },
     separator: {
         height: 1,
@@ -61,9 +70,9 @@ const styles = StyleSheet.create({
     },
     row: {
         flexDirection: "row",
+        marginTop: "auto",
         alignItems: "center",
         justifyContent: "center",
-        marginTop: 50,
     },
     amount: {
         fontSize: 25,
@@ -77,6 +86,19 @@ const styles = StyleSheet.create({
         fontWeight: "450",
         color: "red",
     },
+    button: {
+        backgroundColor: "black",
+        marginTop: "auto",
+        margin: 20,
+        padding: 20,
+        marginBottom: 100,
+        alignItems: "center",
+    },
+    buttonText: {
+        color: "white",
+        fontWeight: "600",
+        fontSize: 18,
+    }
 });
 
 export default ItemDetailsScreen;
