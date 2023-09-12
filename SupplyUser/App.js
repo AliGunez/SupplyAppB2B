@@ -4,14 +4,16 @@ import HomeScreen from './src/screens/HomeScreen';
 import SupplierDetailsPage from './src/screens/SupplierDetailsScreen';
 import ItemDetailsScreen from './src/screens/ItemDetailsScreen';
 import Basket from './src/screens/Basket';
+import OrderScreen from './src/screens/OrdersScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Basket />
+      {/* <Basket /> */}
       {/* <ItemDetailsScreen /> */}
       {/* <SupplierDetailsPage /> */}
       {/* <HomeScreen /> */}
+      <OrderScreen/>
 
       <StatusBar style="auto" />
     </View>

@@ -5,11 +5,11 @@
     "status": "NEW",
     "createdAt": "2022-04-16T18:56:21.890Z",
     "updatedAt": "2022-04-16T18:56:21.890Z",
-    "orderRestaurantId": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-    "Restaurant": {
+    "OrderSupplierID": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
+    "Supplier": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
       "name": "Wholesale Distributors Inc.",
-      "image": "https://example.com/distributor1.jpg",
+      "image": "https://images.pexels.com/photos/5498224/pexels-photo-5498224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryFee": 150,
       "minDeliveryTime": 5,
       "maxDeliveryTime": 8,
@@ -34,11 +34,11 @@
     "status": "NEW",
     "createdAt": "2022-04-16T18:53:32.261Z",
     "updatedAt": "2022-04-16T18:53:32.261Z",
-    "orderRestaurantId": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-    "Restaurant": {
+    "OrderSupplierID": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
+    "Supplier": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
       "name": "Bulk Warehouse Co.",
-      "image": "https://example.com/distributor2.jpg",
+      "image": "https://images.pexels.com/photos/4481327/pexels-photo-4481327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryFee": 220,
       "minDeliveryTime": 2,
       "maxDeliveryTime": 6,
@@ -63,11 +63,11 @@
     "status": "NEW",
     "createdAt": "2022-04-16T18:56:49.713Z",
     "updatedAt": "2022-04-16T18:56:49.713Z",
-    "orderRestaurantId": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-    "Restaurant": {
+    "OrderSupplierID": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
+    "Supplier": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
       "name": "Bulk Warehouse Co.",
-      "image": "https://example.com/distributor2.jpg",
+      "image": "https://images.pexels.com/photos/4481327/pexels-photo-4481327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryFee": 220,
       "minDeliveryTime": 2,
       "maxDeliveryTime": 6,
