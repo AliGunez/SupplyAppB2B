@@ -46,6 +46,7 @@
   {
     "id": "2",
     "name": "Bulk Warehouse Co.",
+    "address": "737 North Street London SW54 7MH",
     "deliveryFee": 220,
     "minDeliveryTime": 2,
     "maxDeliveryTime": 6,
@@ -92,6 +93,7 @@
   {
     "id": "3",
     "name": "Supply Chain Traders",
+    "address": "53 Springfield Road London SE97 8BV",
     "deliveryFee": 120,
     "minDeliveryTime": 7,
     "maxDeliveryTime": 9,
@@ -134,6 +136,7 @@
   {
     "id": "4",
     "name": "Foodie's Paradise Wholesale",
+    "address": "60 Station Road London W96 4CX",
     "deliveryFee": 180,
     "minDeliveryTime": 3,
     "maxDeliveryTime": 7,
@@ -177,6 +180,7 @@
   {
     "id": "5",
     "name": "Fresh Produce Express",
+    "address": "1 South Street London SE97 1BK",
     "deliveryFee": 200,
     "minDeliveryTime": 4,
     "maxDeliveryTime": 8,

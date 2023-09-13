@@ -1,22 +1,11 @@
 import { useState } from "react";
 import {View, Text, StyleSheet, FlatList} from "react-native";
 import {AntDesign} from "@expo/vector-icons";
+import BasketItem from "../../components/BasketItem";
 
 import Suppliers from "../../../assets/data/Suppliers.json"
 const supplier = Suppliers[0];
 
-
-const BasketItem = ({basketItem}) => {
-    return (
-        <View style={styles.row}>
-            <View style={styles.amountContainer}>
-                <Text>1</Text>
-            </View>
-            <Text style={styles.itemName}>{basketItem.name}</Text>
-            <Text style={styles.totalPrice}>£{basketItem.price}</Text>
-        </View>
-    );
-};
 
 const Basket = () => {
     return (

@@ -5,6 +5,7 @@ import SupplierDetailsPage from './src/screens/SupplierDetailsScreen';
 import ItemDetailsScreen from './src/screens/ItemDetailsScreen';
 import Basket from './src/screens/Basket';
 import OrderScreen from './src/screens/OrdersScreen';
+import OrderDetails from './src/screens/OrderDetails';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <ItemDetailsScreen /> */}
       {/* <SupplierDetailsPage /> */}
       {/* <HomeScreen /> */}
-      <OrderScreen/>
+      {/* <OrderScreen/> */}
+      <OrderDetails/>
 
       <StatusBar style="auto" />
     </View>
