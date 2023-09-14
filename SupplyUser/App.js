@@ -7,8 +7,11 @@ import Basket from './src/screens/Basket';
 import OrderScreen from './src/screens/OrdersScreen';
 import OrderDetails from './src/screens/OrderDetails';
 
+import { NavigationContainer } from '@react-navigation/native';
+
 export default function App() {
   return (
+    <NavigationContainer>
     <View style={styles.container}>
       {/* <Basket /> */}
       {/* <ItemDetailsScreen /> */}
@@ -19,6 +22,7 @@ export default function App() {
 
       <StatusBar style="auto" />
     </View>
+    </NavigationContainer>
   );
 };
 
