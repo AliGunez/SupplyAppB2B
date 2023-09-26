@@ -1,9 +1,15 @@
-import { setStatusBarBackgroundColor } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image} from 'react-native';
+import { StyleSheet, Text, View, Image, Pressable} from 'react-native';
+import { useNavigation } from '@react-navigation/core';
 
 const SupplierItem = ({ supplier }) => {
+    const navigation = useNavigation();
+
+
+    const onPress = () => {
+        navigation.navigate("Supplier", {id: supplier.id});
+    };
     return (
-        <View style={styles.supplierContainer}>
+        <Pressable onPress={onPress} style={styles.supplierContainer}>
             <Image
                 source={{
                     uri: supplier.image,
@@ -17,14 +23,15 @@ const SupplierItem = ({ supplier }) => {
                         If Delivery Is Required: £{supplier.deliveryFee} &#8226; {supplier.minDeliveryTime}-{supplier.maxDeliveryTime} days
                     </Text>
                 </View>
-            </View>
 
             {/* <View style={styles.rating}>
                 <Text>{supplier.rating}</Text>
             </View> */}
 
+            </View>
 
-        </View>
+
+        </Pressable>
     );
 };
 
@@ -37,9 +44,9 @@ const styles = StyleSheet.create({
     },
     image: {
       width: "100%",
-      aspectRatio: 6/3,
+      aspectRatio: 7/4,
       marginBottom: 3,
-      borderRadius: 15,
+      borderRadius: 10,
     },
     title: {
       fontSize: 18,
@@ -56,7 +63,7 @@ const styles = StyleSheet.create({
     },
     rating: {
         marginLeft: "auto",
-        backgroundColor: "lightgray",
+        backgroundColor: "gray",
         padding: 5,
         alignItems: "center",
         justifyContent: "center",

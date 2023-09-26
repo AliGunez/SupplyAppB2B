@@ -17,6 +17,6 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   page: {
-    padding: 15,
+    paddingHorizontal: 20,
   }
 });

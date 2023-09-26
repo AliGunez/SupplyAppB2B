@@ -5,7 +5,7 @@ import orders from '../../../assets/data/orders.json';
 
 const OrderScreen = () => {
   return (
-    <View style={{ flex: 1, width: '100%' }}>
+    <View style={{ width: '100%', }}>
       <FlatList
         data={orders}
         renderItem={({ item, index }) => (

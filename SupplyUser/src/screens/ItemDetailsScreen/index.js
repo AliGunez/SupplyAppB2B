@@ -1,6 +1,7 @@
 import { useState } from "react";
-import {View, Text, StyleSheet} from "react-native";
+import {View, Text, StyleSheet, ScrollView, Pressable} from "react-native";
 import {AntDesign} from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/core";
 
 import Suppliers from "../../../assets/data/Suppliers.json"
 const item = Suppliers[0].stock[0];
@@ -8,6 +9,7 @@ const item = Suppliers[0].stock[0];
 
 const ItemDetailsScreen = () => {
     const [amount, setAmount] = useState(1);
+    const navigation = useNavigation()
 
     const onMinus = () => {
         if (amount > 1) {
@@ -26,7 +28,7 @@ const ItemDetailsScreen = () => {
     };
 
     return (
-        <View style={styles.page}>
+        <ScrollView style={styles.page}>
             <Text style={styles.name}>{item.name}</Text>
             <Text style={styles.description}>{item.description}</Text>
             <View style={styles.separator}></View>
@@ -36,17 +38,19 @@ const ItemDetailsScreen = () => {
                 <AntDesign name="pluscircleo" size={60} color={"black"} onPress={onPlus} />
             </View>
             <View style={styles.quantity}><Text style={styles.quantity}>{item.quantity} In Stock</Text></View>
-            <View style={styles.button}>
+
+            <Pressable onPress={() => navigation.navigate("Basket")} style={styles.button}>
                 <Text style={styles.buttonText}>Add {amount} to basket &#8226; £{getTotal()}</Text>
-            </View>
-        </View>
+            </Pressable>
+        </ScrollView>
     );
 };
 
 
 const styles = StyleSheet.create({
     page: {
-        flex: 1,
+        width: "100%",
+        padding: 10,
     },
     name: {
         marginHorizontal: 20,
@@ -70,25 +74,25 @@ const styles = StyleSheet.create({
     },
     row: {
         flexDirection: "row",
-        marginTop: "auto",
+        marginTop: 150,
         alignItems: "center",
         justifyContent: "center",
     },
     amount: {
         fontSize: 25,
         marginHorizontal: 20,
-        fontWeight: "450",
+        fontWeight: "400",
     },
     quantity: {
         alignItems: "center",
         justifyContent: "center",
         marginTop: 5,
-        fontWeight: "450",
+        fontWeight: "400",
         color: "red",
     },
     button: {
         backgroundColor: "black",
-        marginTop: "auto",
+        marginTop: 50,
         margin: 20,
         padding: 20,
         marginBottom: 100,

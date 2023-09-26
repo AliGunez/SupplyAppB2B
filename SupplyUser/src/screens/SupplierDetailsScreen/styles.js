@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
     page: {
-        flex: 1,
+        width: "100%",
     },
     iconContainer: {
         position: "absolute",
@@ -11,7 +11,7 @@ export default StyleSheet.create({
     },
     image: {
         width: "100%",
-        aspectRatio: 6/3,
+        aspectRatio: 7/4,
     },
     title: {
         marginHorizontal: 20,
@@ -30,7 +30,7 @@ export default StyleSheet.create({
         marginHorizontal: 20,
         marginTop: 10,
         marginBottom: 12,
-        fontWeight: 500,
+        fontWeight: "500",
         fontSize: 18,
         color: "grey"
     },

@@ -1,9 +1,8 @@
-import { useState } from "react";
 import {View, Text, StyleSheet, FlatList} from "react-native";
-import {AntDesign} from "@expo/vector-icons";
 import BasketItem from "../../components/BasketItem";
 
 import Suppliers from "../../../assets/data/Suppliers.json"
+
 const supplier = Suppliers[0];
 
 
@@ -17,7 +16,7 @@ const Basket = () => {
 
             <FlatList data={supplier.stock} renderItem={({item}) => <BasketItem basketItem={item}/>}/>
 
-            <View style={styles.separator}></View>
+            <View style={styles.separator}/>
 
             <View style={styles.button}>
                 <Text style={styles.buttonText}>Order</Text>
@@ -27,9 +26,11 @@ const Basket = () => {
 };
 
 
+
 const styles = StyleSheet.create({
     page: {
-        flex: 1,
+        width: "100%",
+        padding: 10,
     },
     name: {
         marginHorizontal: 20,
@@ -68,13 +69,13 @@ const styles = StyleSheet.create({
     amount: {
         fontSize: 25,
         marginHorizontal: 20,
-        fontWeight: "450",
+        fontWeight: "400",
     },
     quantity: {
         alignItems: "center",
         justifyContent: "center",
         marginTop: 5,
-        fontWeight: "450",
+        fontWeight: "400",
         color: "red",
     },
     button: {

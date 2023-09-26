@@ -10,6 +10,7 @@
     "image": "https://images.pexels.com/photos/5498224/pexels-photo-5498224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "stock": [
       {
+        "id": "1",
         "name": "Bulk Rice - 20 kg",
         "description": "Premium quality long-grain rice.",
         "price": 23.99,
@@ -17,6 +18,7 @@
         "image": "https://www.costco.co.uk/medias/sys_master/images/h24/hb4/79371877056542.webp"
       },
       {
+        "id": "2",
         "name": "Pack of 1000 Disposable Utensils",
         "description": "High-quality disposable utensils for events and catering.",
         "price": 18.90,
@@ -24,18 +26,21 @@
         "image": "https://www.costco.co.uk/medias/sys_master/images/h75/h7d/98885709856798.webp"
       },
       {
+        "id": "3",
         "name": "Assorted Snack Pack - 50 Pieces",
         "description": "A variety of popular snacks in a single pack.",
         "price": 15.40,
         "quantity": 500
       },
       {
+        "id": "4",
         "name": "Bulk Cooking Oil - 5L",
         "description": "Pure vegetable cooking oil for commercial kitchens.",
         "price": 29.90,
         "quantity": 150
       },
       {
+        "id": "5",
         "name": "Chilled Beverages Variety Pack",
         "description": "A selection of refreshing beverages in bulk.",
         "price": 22.50,
@@ -54,6 +59,7 @@
     "image": "https://images.pexels.com/photos/4481327/pexels-photo-4481327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "stock": [
       {
+        "id": "1",
         "name": "Premium Lager Beer - Case of 24",
         "description": "Case of 24 bottles of premium lager beer.",
         "price": 34.95,
@@ -61,6 +67,7 @@
         "image": "https://www.costco.co.uk/medias/sys_master/images/hca/h9a/83276746620958.webp"
       },
       {
+        "id": "2",
         "name": "Red Wine - Cabernet Sauvignon",
         "description": "Bottle of rich and full-bodied Cabernet Sauvignon.",
         "price": 27.50,
@@ -68,6 +75,7 @@
         "image": "https://www.costco.co.uk/medias/sys_master/images/h04/hd7/157360572923934.webp"
       },
       {
+        "id": "3",
         "name": "Coca-Cola - 24 Cans",
         "description": "Case of 24 cans of Coca-Cola.",
         "price": 12.99,
@@ -75,6 +83,7 @@
         "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/d0daa816-3f95-4d19-9218-32cc9dec46b4/f22f6056-2365-4153-a8c4-2f0f2ad75f53_1125902608.jpeg?h=540&w=540"
       },
       {
+        "id": "4",
         "name": "Sprite - 24 Cans",
         "description": "Case of 24 cans of Sprite.",
         "price": 12.99,
@@ -82,6 +91,7 @@
         "image": "https://m.media-amazon.com/images/I/81Iz3rkTf9L._AC_UF1000,1000_QL80_.jpg"
       },
       {
+        "id": "5",
         "name": "Pepsi - 24 Cans",
         "description": "Case of 24 cans of Pepsi.",
         "price": 12.99,
@@ -101,12 +111,14 @@
     "image": "https://images.pexels.com/photos/1561147/pexels-photo-1561147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "stock": [
       {
+        "id": "1",
         "name": "Bulk Canned Vegetables - 24 Cans",
         "description": "Variety pack of canned vegetables for restaurants.",
         "price": 19.50,
         "quantity": 225
       },
       {
+        "id": "2",
         "name": "Wholesale Coffee Beans - 5 kg",
         "description": "Premium coffee beans for cafes and businesses.",
         "price": 42.75,
@@ -114,18 +126,21 @@
         "image": "https://i.ebayimg.com/images/g/TocAAOSwT69j7exE/s-l1600.jpg"
       },
       {
+        "id": "3",
         "name": "Disposable Takeout Containers - 500 Pack",
         "description": "Convenient takeout containers for food establishments.",
         "price": 32.90,
         "quantity": 500
       },
       {
+        "id": "4",
         "name": "Bulk Spices Assortment - 15 Jars",
         "description": "Assorted spices for enhancing culinary creations.",
         "price": 27.60,
         "quantity": 500
       },
       {
+        "id": "5",
         "name": "Large Commercial Refrigerator",
         "description": "Heavy-duty refrigerator for storing perishables.",
         "price": 899.00,
@@ -144,6 +159,7 @@
     "image": "https://images.pexels.com/photos/5498225/pexels-photo-5498225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "stock": [
       {
+        "id": "1",
         "name": "Assorted Pasta - 10 kg",
         "description": "A variety of pasta shapes and flavors.",
         "price": 14.99,
@@ -151,6 +167,7 @@
         "image": "https://sc02.alicdn.com/kf/H37cae396e00a4eae8a7f3c24beb0a1e3S.jpg"
       },
       {
+        "id": "2",
         "name": "Bulk Olive Oil - 5L",
         "description": "Pure extra-virgin olive oil for cooking.",
         "price": 32.50,
@@ -158,18 +175,21 @@
         "image": "https://m.media-amazon.com/images/I/61onukBTxtL._AC_UF1000,1000_QL80_.jpg"
       },
       {
+        "id": "3",
         "name": "Mixed Nuts - 1 kg",
         "description": "A mixture of roasted and salted nuts.",
         "price": 18.75,
         "quantity": 500
       },
       {
+        "id": "4",
         "name": "Gourmet Chocolate Bars - 12 Pack",
         "description": "A selection of premium chocolate bars.",
         "price": 27.99,
         "quantity": 1000
       },
       {
+        "id": "5",
         "name": "Assorted Spreads - 500g",
         "description": "A variety of gourmet spreads for breakfast.",
         "price": 9.95,
@@ -188,6 +208,7 @@
     "image": "https://images.pexels.com/photos/796580/pexels-photo-796580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "stock": [
       {
+        "id": "1",
         "name": "Organic Fruits Bundle - 10 kg",
         "description": "A variety of fresh, organic fruits.",
         "price": 29.99,
@@ -195,6 +216,7 @@
         "image": "https://familydoctor.org/wp-content/uploads/2016/11/52141462_l-scaled.jpg"
       },
       {
+        "id": "2",
         "name": "Assorted Vegetables - 5 kg",
         "description": "A mix of seasonal, farm-fresh vegetables.",
         "price": 16.50,
@@ -202,18 +224,21 @@
         "image": "https://cosorganics.com.au/cdn/shop/files/ComboBox_1000x.png?v=1639546572"
       },
       {
+        "id": "3",
         "name": "Farm Eggs - Dozen",
         "description": "Locally sourced farm eggs.",
         "price": 4.99,
         "quantity": 250
       },
       {
+        "id": "4",
         "name": "Organic Honey - 500g",
         "description": "Pure, organic honey from local bee farms.",
         "price": 11.25,
         "quantity": 300
       },
       {
+        "id": "5",
         "name": "Fresh Herbs Bundle",
         "description": "A bundle of assorted fresh herbs for culinary use.",
         "price": 6.95,

@@ -1,8 +1,11 @@
-import { View, Text, StyleSheet, Image } from "react-native";
+import { View, Text, StyleSheet, Image, Pressable } from "react-native";
+import { useNavigation } from "@react-navigation/core";
 
 const StockListItem = ({ stock }) => {
+    const navigation = useNavigation();
     return (
-        <View style={styles.container}>
+        <Pressable onPress={() => navigation.navigate("Item", {id: stock.id})}
+        style={styles.container}>
             <View style={{flex: 1}}>
                 <Text style={styles.name}>{stock.name} </Text>
                 <Text style={styles.description} numberOfLines={2}>{stock.description} </Text>
@@ -12,7 +15,7 @@ const StockListItem = ({ stock }) => {
             {stock.image && (
             <Image source={{uri: stock.image}} style={styles.image} />
             )}
-        </View>
+        </Pressable>
     );
 };
 
@@ -33,7 +36,7 @@ const styles = StyleSheet.create({
         color: "grey",
         fontSize: 14,
         marginVertical: 2,
-        fontWeight: "450"
+        fontWeight: "400"
     },
     price: {
         fontSize: 15,
@@ -47,7 +50,7 @@ const styles = StyleSheet.create({
         fontSize: 14,
         marginVertical: 2,
         color: "red",
-        fontWeight: "450"
+        fontWeight: "400"
 
     }
 });
