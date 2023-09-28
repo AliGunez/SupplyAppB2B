@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     image: {
         height: 100,
         aspectRatio: 1,
+        borderRadius: 5,
     },
     quantity: {
         fontSize: 14,
