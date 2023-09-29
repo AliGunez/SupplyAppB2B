@@ -6,6 +6,7 @@ import ItemDetailsScreen from '../screens/ItemDetailsScreen';
 import Basket from '../screens/Basket';
 import OrderScreen from '../screens/OrdersScreen';
 import OrderDetails from '../screens/OrderDetails';
+import ProfileScreen from '../screens/ProfileScreen'
 
 import { Foundation } from '@expo/vector-icons';
 
@@ -31,7 +32,7 @@ const HomeTabs = () => {
         <Tab.Navigator barStyle={{ backgroundColor: "white" }}>
             <Tab.Screen name = "Home" component={HomeStackNavigator} options={{tabBarIcon: ({color}) => <Foundation name="home" size={24} color={color} />}}/>
             <Tab.Screen name = "Orders" component={OrderStackNavigator} options={{tabBarIcon: ({color}) => <Foundation name="list" size={24} color={color} />}}/>
-            <Tab.Screen name = "Profile" component={OrderScreen} options={{tabBarIcon: ({color}) => <Foundation name="torso" size={24} color={color} />}}/>
+            <Tab.Screen name = "Profile" component={ProfileScreen} options={{tabBarIcon: ({color}) => <Foundation name="torso" size={24} color={color} />}}/>
         </Tab.Navigator>
     );
 };
