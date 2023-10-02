@@ -1,0 +1,63 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-b2bsupply-staging-193356-authRole",
+      "UnauthRoleArn": "arn:aws:iam::333000125418:role/amplify-b2bsupply-staging-193356-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::333000125418:role/amplify-b2bsupply-staging-193356-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-b2bsupply-staging-193356-deployment",
+      "UnauthRoleName": "amplify-b2bsupply-staging-193356-unauthRole",
+      "StackName": "amplify-b2bsupply-staging-193356",
+      "StackId": "arn:aws:cloudformation:eu-north-1:333000125418:stack/amplify-b2bsupply-staging-193356/21a4bd60-5eff-11ee-b688-0e08df08bfa6",
+      "AmplifyAppId": "d2c9v5uwuaakks"
+    }
+  },
+  "auth": {
+    "B2BSupply": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
+        },
+        "mfaConfiguration": "OPTIONAL",
+        "mfaTypes": [
+          "SMS",
+          "TOTP"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-b2bsupply-staging-193356-deployment/amplify-cfn-templates/auth/B2BSupply-cloudformation-template.json",
+        "logicalId": "authB2BSupply"
+      },
+      "lastPushTimeStamp": "2023-09-29T19:56:54.262Z",
+      "output": {
+        "CreatedSNSRole": "arn:aws:iam::333000125418:role/sns8e25c990193356-staging",
+        "UserPoolId": "eu-north-1_UijR5mh9G",
+        "AppClientIDWeb": "7smpcr1brqrujiccv6eeme8bas",
+        "AppClientID": "2i7qff6umieqs59kidgin50qh6",
+        "IdentityPoolId": "eu-north-1:702d6c1e-497e-4a1a-9654-3ac7f4b39b9e",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-north-1:333000125418:userpool/eu-north-1_UijR5mh9G",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "B2BSupply"
+      },
+      "lastPushDirHash": "zmEBjXQFFJXy+523ICh//QyoRW4="
+    }
+  }
+}
