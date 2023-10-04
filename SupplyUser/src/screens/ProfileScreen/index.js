@@ -17,7 +17,7 @@ const Profile = () => {
       <TextInput
         value={name}
         onChangeText={setName}
-        placeholder="Name"
+        placeholder="Company Name"
         style={styles.input}
       />
       <TextInput
